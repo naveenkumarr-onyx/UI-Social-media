@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter2";
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+* {
+  margin: 0px;
+}
+
+img {
+  width: 80px;
+  border-radius: 50px;
+}
+.container {
+  background-color: rgb(4, 4, 4);
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 25px;
+}
+.name-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  font-family: "Inter";
+}
+.name-div h1 {
+  font-size: 16px;
+  line-height: 12px;
+  font-weight: 500;
+}
+.name-div p {
+  font-size: 10px;
+  font-weight: 700;
+  color: hsl(73.88, 66.34%, 60.39%);
+}
+.position-div {
+  display: flex;
+  padding: 15px;
+}
+.position-div p {
+  font-family: "Inter2";
+  font-size: 10px;
+  font-weight: 500;
+  color: #a8a8a8;
+}
+.social-media-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.social-github,
+.social-mentor,
+.social-linkedIn,
+.social-instagram,
+.social-twitter {
+  background-color: rgb(51, 51, 51);
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 13px;
+}
+.social-github h1,
+.social-mentor h1,
+.social-linkedIn h1,
+.social-instagram h1,
+.social-twitter h1 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  font-family: "Inter2";
+}
+
+.social-github:hover,
+.social-mentor:hover,
+.social-linkedIn:hover,
+.social-instagram:hover,
+.social-twitter:hover {
+  background-color: hsl(73.88, 66.34%, 60.39%);
+  color: rgb(51, 51, 51);
+}
